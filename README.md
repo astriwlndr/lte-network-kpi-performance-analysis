@@ -66,7 +66,7 @@ Interactive dashboard visualizations:
 - RSRP & SINR distributions  
 
 **Dashboard**  
-![Dashboard Preview](dashboard_screenshot.png)
+![Dashboard Preview](tableau_dashboard/network_performance_dashboard.png)
 
 > Filters allow exploring performance metrics by operator and region.
 
