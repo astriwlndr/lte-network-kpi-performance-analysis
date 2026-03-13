@@ -1,6 +1,6 @@
 -- =====================================================
 -- Network Performance Analysis
--- Dataset: Dummy dataset contains simulated LTE/5G network KPI measurements across multiple regions in Indonesia
+-- Dataset: Dummy dataset contains simulated LTE network KPI measurements across multiple regions in Indonesia
 -- =====================================================
 
 -- 1 Average Throughput per Operator
@@ -55,4 +55,5 @@ SELECT
     AVG(latency_ms) AS avg_latency
 FROM `ascendant-altar-489312-r5.network_dataset.network_dataset`
 GROUP BY hour
+
 ORDER BY hour;
